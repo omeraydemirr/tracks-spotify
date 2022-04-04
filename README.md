@@ -36,4 +36,4 @@ python manage.py runserver 8000
 
 
 ## License
-[GNU 3.0]()
+[GNU 3.0](https://github.com/omeraydemirr/tracks-spotify/blob/31f161d2d447a10bb812e82275609430c9f79bec/LICENSE)
