@@ -1,0 +1,63 @@
+<html>
+
+
+
+<body>
+    <div style="display: flex;justify-content: space-around;margin: 0 auto;">
+        <table>
+            <tr>
+                <th>ARTISTS</th>
+            </tr>
+            {%for a in arts%}
+            <tr style="width:300px;height:150px">
+                <td style="font-size: large;">{{a}}</td>
+            </tr>
+            {%endfor%}
+
+
+        </table>
+
+        <table>
+            <tr>
+                <th>NAMES</th>
+            </tr>
+            {%for n in names%}
+            <tr style="width:300px;height:150px">
+                <td style="font-size: large;">{{n}}</td>
+            </tr>
+            {%endfor%}
+
+
+        </table>
+
+
+        <table>
+            <tr>
+                <th>LINKS</th>
+            </tr>
+            {%for l in links%}
+            <tr style="width:300px;height:150px">
+                <td>
+                    <a href="{{l}}" target="_blank">LISTEN</a>
+                </td>
+            </tr>
+            {%endfor%}
+        </table>
+
+        <table>
+            <tr>
+                <th>IMAGES</th>
+            </tr>
+            {%for i in images%}
+            <tr style="width:100%">
+                <td>
+                    <img src="{{i}}" width="300" height="150" />
+
+                </td>
+            </tr>
+            {%endfor%}
+        </table>
+    </div>
+</body>
+
+</html>
